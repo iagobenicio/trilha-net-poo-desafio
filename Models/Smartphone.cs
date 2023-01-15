@@ -3,7 +3,7 @@ namespace DesafioPOO.Models
     public abstract class Smartphone
     {
         public string Numero { get; set; }
-        // TODO: Implementar as propriedades faltantes de acordo com o diagrama
+        //implementado
 
         protected string Modelo => _modelo;
         private string _modelo;
@@ -12,7 +12,7 @@ namespace DesafioPOO.Models
         public Smartphone(string numero, string modelo, string imei, int memoria)
         {
             Numero = numero;
-            // TODO: Passar os parâmetros do construtor para as propriedades
+            //implementado
             _modelo = modelo;
             _imei = imei;
             _memoria = memoria;

@@ -1,6 +1,6 @@
 ﻿using DesafioPOO.Models;
 
-// TODO: Realizar os testes com as classes Nokia e Iphone
+//implementado
 
 Nokia nokia = new Nokia(numero: "902165", modelo: "NK232344", imei: "112111112211", memoria: 64);
 
